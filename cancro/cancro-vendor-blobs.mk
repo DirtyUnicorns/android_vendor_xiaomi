@@ -384,8 +384,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/cancro/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/cancro/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/xiaomi/cancro/proprietary/etc/permissions/qcom.fmradio.xml:system/etc/permissions/qcom.fmradio.xml \
     vendor/xiaomi/cancro/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/cancro/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/xiaomi/cancro/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar \
     vendor/xiaomi/cancro/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
@@ -461,6 +463,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/xiaomi/cancro/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/xiaomi/cancro/proprietary/lib/libqcomfm_jni.so:system//lib/libqcomfm_jni.so \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
