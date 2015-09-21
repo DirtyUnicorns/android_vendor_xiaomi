@@ -26,8 +26,8 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 PRODUCT_PACKAGES += \
-    FM2Xiaomi \
-    FMRecXiaomi \
+    FM2 \
+    FMRecord \
     qcrilmsgtunnel \
     QuickBoot \
     shutdownlistener \
