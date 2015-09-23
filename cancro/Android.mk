@@ -125,7 +125,7 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := FM2
+LOCAL_MODULE := FM2Xiaomi
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/app/FM2.apk
 LOCAL_MODULE_TAGS := optional
@@ -136,7 +136,7 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := FMRecord
+LOCAL_MODULE := FMRecXiaomi
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/app/FMRecord.apk
 LOCAL_MODULE_TAGS := optional
